@@ -6,7 +6,7 @@ In Development (Python)
 Model detects ASL gestures for letters a,b,c and d
 - Model best performs with only hand in camera capture
 - white/black (solid colour) uniform background preffered
-- good lighting
+- good lighting required
 - speech output occurs every 20 cycles of the program
 - press q to exit camera capture, then speak something into console clearly.
 - speech converted to text
