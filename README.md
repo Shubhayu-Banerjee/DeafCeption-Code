@@ -11,7 +11,7 @@ Model detects ASL gestures for letters a,b,c and d (this is fingerspell! Individ
 - press q to exit camera capture, then speak something into console clearly.
 - speech converted to text
 
-!! DCF.py file does not work-standalone for some reason. Please open with an environment such as Pycharm/VSC !!
+!! DCF runner.py file does not work-standalone for some reason. Please open with an environment such as Pycharm/VSC !!
 !! Simply install required libraries, and run DCF !!
 
 !! Ensure all files are in the same folder !!
