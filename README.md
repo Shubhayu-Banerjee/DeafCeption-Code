@@ -22,17 +22,18 @@ Model detects ASL gestures for letters a,b,c and d (this is fingerspell! Individ
 
 !! Ensure all files (DCF, labels, and keras model) are in the same folder !!
 
+# DeafCeption Exec (DCE)
+
+- In development.
+- universal DeafCeption Model Executer.
+- Will have the capability to run all DeafCeption Models.
+- *First Version Release expected by 1st of November.*
+
 # DeafCeption Gesture (DCG)
 
+- Version 0.1.0 Released
 - Next step towards sign language interpretion
 - Gestures to be detected rather than fingerspell
 - *1.0.0 Version Release expected by 25th of October*
 - *Requires DCE to run (Not available yet)*
 - Rapid Development Being Done on DeafCeption Gesture Model. Currently recognises ***six gestures***
-
-# DeafCeption Exec (DCE)
-
-- in development
-- universal DeafCeption model runner
-- will make it such that upon loading DCE in an env., all that is required is specifying which model to run.
-- *First Version Release expected by 1st of November.*
