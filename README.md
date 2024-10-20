@@ -1,6 +1,8 @@
 # DeafCeption-Code
 SVAN app software repository
 
+*To be heard, To be expressed*
+
 In Development (Python)
 
 # DeafCeption Fingerspell (DCF)
