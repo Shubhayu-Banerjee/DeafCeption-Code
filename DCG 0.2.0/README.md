@@ -1,6 +1,6 @@
 # DCG 0.2.0
 - Improved Recognition
-- Capability to detect 6 ASL Gestures
+- Capability to detect 7 (6) ASL Gestures
   - Hi
   - Name
   - Me
