@@ -14,3 +14,5 @@ Model detects ASL gestures for letters a,b,c and d
 !! testr.py file does not work-standalone for some reason. Please open with an environment such as Pycharm/VSC !!
 
 !! Ensure all files are in the same folder !!
+
+- Released 20/10/2024
