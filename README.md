@@ -15,9 +15,10 @@ Model detects ASL gestures for letters a,b,c and d (this is fingerspell! Individ
 
 # Run DCF
 
-!! DCF Runner.py file does not work-standalone for some reason. Please open with an environment such as Pycharm/VSC !!
+- Download DCF Folder
+- Simply install required libraries (if not already installed) and run
 
-!! Simply install required libraries, and run DCF !!
+!! DCF Runner.py file does not work-standalone for some reason. Please open with an environment such as Pycharm/VSC !!
 
 !! Ensure all files (DCF, labels, and keras model) are in the same folder !!
 
