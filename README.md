@@ -26,7 +26,7 @@ Model detects ASL gestures for letters a,b,c and d (this is fingerspell! Individ
 - Next step towards sign language interpretion
 - Gestures to be detected rather than fingerspell
 
-!!Rapid Development Being Done on DeafCeption Gesture Model. Currently recognises ***six gestures!!***
+!!Rapid Development Being Done on DeafCeption Gesture Model. Currently recognises ***six gestures***!!
 
 # DeafCeption Exec (DCE)
 
