@@ -37,5 +37,5 @@ Model detects ASL gestures for letters a,b,c and d (this is fingerspell! Individ
 - Next step towards sign language interpretion
 - Gestures are detected along side fingerspell
 - *1.0.0 Version Release expected by 28th of October 2024.*
-- *Requires DCE to run (Not available yet)*
+- *Requires DCE to run (In Development)*
 - Rapid Development Being Done on DeafCeption Gesture Model. DCG 0.4.0 recognises ***twelve gestures***
