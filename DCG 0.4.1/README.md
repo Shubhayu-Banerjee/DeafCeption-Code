@@ -1,0 +1,16 @@
+# DCG 0.4.0
+- Basic Recognition Robustness
+- Capability to detect 13 (12) ASL Gestures
+  - None
+  - Me
+  - Name
+  - Hi
+  - Thank You
+  - Please
+  - Yes
+  - Deaf
+  - Sign
+  - How
+  - Whats Up
+  - When
+- Released on 31-10-2024
