@@ -1,4 +1,4 @@
-# DCG 0.4.0
+# DCG 0.4.1
 - Basic Recognition Robustness
 - Capability to detect 13 (12) ASL Gestures
   - None
