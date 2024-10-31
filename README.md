@@ -29,13 +29,13 @@ Model detects ASL gestures for letters a,b,c and d (this is fingerspell! Individ
 - Version 0.2.1 Released
 - Universal DeafCeption Model Executer.
 - Will have the capability to run all DeafCeption Models.
-- *1.0.0 Version Release expected by 1st of November 2024.*
+- *1.0.0 Version Release expected by 5th of November 2024.*
 
 # DeafCeption Gesture (DCG)
 
-- Version 0.4.0 Released
+- Version 0.4.1 Released
 - Next step towards sign language interpretion
 - Gestures are detected
-- *1.0.0 Version Release expected by 28th of October 2024.*
+- *1.0.0 Version Release expected by 5th of November 2024.*
 - *Requires DCE to run (In Development)*
-- Rapid Development Being Done on DeafCeption Gesture Model. DCG 0.4.0 recognises ***twelve gestures***.
+- Rapid Development Being Done on DeafCeption Gesture Model. DCG 0.4.1 recognises ***thirteen gestures***.
