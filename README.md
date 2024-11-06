@@ -26,7 +26,7 @@ Model detects ASL gestures for letters a,b,c and d (this is fingerspell! Individ
 
 # DeafCeption Exec (DCE)
 
-- Version 0.2.1 Released
+- Version 1.0.0 Released
 - Universal DeafCeption Model Executer.
 - Will have the capability to run all DeafCeption Models.
 
