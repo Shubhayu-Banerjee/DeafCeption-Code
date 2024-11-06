@@ -1,7 +1,5 @@
 import cv2
 import mediapipe as mp
-import csv
-
 import tensorflow as tf
 from keras.layers import DepthwiseConv2D
 from keras.models import load_model
