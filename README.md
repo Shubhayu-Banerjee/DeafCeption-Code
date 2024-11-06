@@ -32,7 +32,7 @@ Model detects ASL gestures for letters a,b,c and d (this is fingerspell! Individ
 
 # DeafCeption Gesture (DCG)
 
-- Version 0.4.3 Released
+- Version 0.4.1 Released
 - Next step towards sign language interpretion
 - Gestures are detected
 - *Requires DCE to run (In Development)*
