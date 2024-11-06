@@ -1,11 +1,8 @@
 import cv2
 import mediapipe as mp
-import csv
-
 import tensorflow as tf
 from keras.layers import DepthwiseConv2D
 from keras.models import load_model
-#import cv2
 import numpy as np
 
 # Initialize MediaPipe hands, face detection, and drawing utilities
@@ -174,57 +171,6 @@ with mp_hands.Hands(static_image_mode=False, max_num_hands=2, min_detection_conf
 
         # Check for key presses
         key = cv2.waitKey(1) & 0xFF
-
-        # If 'p' is pressed, print the normalized coordinates for left and right hands and head
-        if key == ord('p'):
-            print("Left Hand Normalized Coordinates:", left_list)
-            print("Right Hand Normalized Coordinates:", right_list)
-
-            # Print normalized head position
-            if head_position:
-                normalized_head_x = head_position[0] / frame.shape[1]
-                normalized_head_y = head_position[1] / frame.shape[0]
-                normalized_head = [(normalized_head_x,normalized_head_y)]
-                print("Head Normalized Position:", normalized_head)
-            else:
-                print("Head Position: Not Detected")
-            print("major list")
-            major_list = left_list+right_list+normalized_head
-            print(major_list)
-
-            # Specify the CSV file name
-            csv_file = 'output.csv'
-
-            # Create or open the CSV file
-            with open(csv_file, mode='w', newline='') as file:
-                writer = csv.writer(file)
-
-                # Write header for the first column
-                header = ["A"]
-                # Start with an empty data structure for the rest of the columns
-                additional_data = []
-                # Get label from the user
-                label = input("Enter a label for the new column (or 'exit' to finish): ")
-                if label.lower() == 'exit':
-                     break
-                # Append the label to the header
-                header.append(label)
-
-                # Gather data for this column
-                column_data = []
-                for i, (a, b) in enumerate(major_list):
-                    column_data.append(a)
-                    column_data.append(b)
-
-                # Append the collected column data
-                additional_data.append(column_data)
-
-                # Write the header to the CSV
-                writer.writerow(header)
-
-                # Write the data
-                for row in zip(*additional_data):  # Unpack the lists to create rows
-                    writer.writerow(row)
 
         # Break the loop on 'Esc' key press
         if key == 27:  # ASCII for Esc key is 27
