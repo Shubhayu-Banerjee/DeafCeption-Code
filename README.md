@@ -36,9 +36,10 @@ Model detects ASL gestures for letters a,b,c and d (this is fingerspell! Individ
 - Next step towards sign language interpretion
 - Gestures are detected
 - *Requires DCE to run*
-- Rapid Development Being Done on DeafCeption Gesture Model. DCG 0.4.1 recognises ***thirteen gestures***.
+- DCG 0.4.1 recognises ***thirteen gestures***.
 
 # DeafCeption Gesture X
 - Instead of relying on camera capture and a pure CV model, DCGX will interpret signs based on finger points.
 - This removes the problems of lighting changes, background changes, different people, etc.
-- In very early development
+- Rapid Development Being Done on DCGX Model.
+- Release expected Soon.
