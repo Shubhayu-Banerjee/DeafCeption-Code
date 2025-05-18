@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Deafception Demo</title>
+  <!-- Google Fonts Link for Space Grotesk -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    /* Apply Space Grotesk font globally */
+    body {
+      font-family: 'Space Grotesk', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Styling for the logo and text container */
+    .logo-container {
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+      position: relative;
+    }
+
+    #logo {
+      width: 120px;
+      height: auto;
+      margin-right: 10px;
+    }
+
+    .logo-text {
+      font-weight: 600;
+      font-size: 24px;
+      margin: 0;
+    }
+
+    .tagline {
+      font-weight: 400;
+      font-size: 16px;
+      margin: 0;
+      color: #666;
+    }
+
+    /* Golden bar across the entire page, adjusted margin */
+    .golden-bar {
+      width: 100vw;
+      height: 3px;
+      background-color: gold;
+      margin-top: 20px;  /* Added margin to push the bar below the logo */
+    }
+
+    /* Video wrapper with info button */
+    .video-wrapper {
+      position: relative;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    #video {
+      border: 2px solid #333;
+    }
+
+    #infoBtn.info-icon {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 32px;
+      height: 32px;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    #infoBtn.info-icon:hover {
+      transform: scale(1.1);
+    }
+
+    h2 {
+      margin-top: 20px;
+      font-weight: 500;
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    /* Modal styles */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 100;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.6);
+    }
+
+    .modal-content {
+      background-color: #fff;
+      margin: 10% auto;
+      padding: 20px;
+      border-radius: 8px;
+      width: 80%;
+      max-width: 600px;
+      position: relative;
+      text-align: center;
+    }
+
+    .modal-content img {
+      width: 100%;
+      height: auto;
+    }
+
+    .close {
+      position: absolute;
+      top: 10px;
+      right: 16px;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .close:hover {
+      color: #f00;
+    }
+  </style>
+</head>
+<body>
+  <!-- Logo and Text -->
+  <div class="logo-container">
+    <a href="https://1171123.wixsite.com/deafception-official" target="_blank">
+      <img id="logo" src="logo.png" alt="DeafCeption Logo">
+    </a>
+    <div>
+      <p class="logo-text">DeafCeption</p>
+      <p class="tagline">To be heard, To be expressed</p>
+    </div>
+  </div>
+
+  <!-- Golden bar across the page -->
+  <div class="golden-bar"></div>
+
+  <!-- Server note -->
+  <p class="tagline" style="margin-top: 8px;">
+    (Please note that we cannot support live signing at the moment due to limited server resources)</p>
+  <p class="tagline" style="margin-top: 6px;">
+    - Desktop Cameras work the best. Sit straight with your head near the top of the frame. Make sure your chest is visible.</p>
+  <p class="tagline" style="margin-top: 6px;">
+    If on phone, Hold it far away, Make sure your head is near the top of the frame and chest is visible.
+  </p>
+
+  <!-- Prediction Label -->
+  <h2>Predicted Sign: <span id="label">Click to Predict (down below)</span></h2>
+
+  <!-- Video and Info Button -->
+  <div class="video-wrapper">
+    <video id="video" autoplay playsinline width="500" height="375"></video>
+    <img id="infoBtn" src="infobutton.png" alt="Info" class="info-icon">
+  </div>
+
+  <!-- Predict Button -->
+  <button id="predictBtn">Predict Sign</button>
+
+  <!-- Modal -->
+  <div id="infoModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <img src="info.png" alt="Information">
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+  <script>
+    const modal = document.getElementById("infoModal");
+    const btn = document.getElementById("infoBtn");
+    const span = document.querySelector(".close");
+
+    btn.onclick = function () {
+      modal.style.display = "block";
+    }
+
+    span.onclick = function () {
+      modal.style.display = "none";
+    }
+
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+</body>
+</html>
