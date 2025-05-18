@@ -5,7 +5,14 @@ SVAN app software repository
 
 In Development (Python)
 
-# DeafCeption Fingerspell (DCF)
+# DeafCeption Gesture X (DCGX) (Up To Date)
+- Next step towards sign language interpretion
+- Instead of relying on camera capture and a pure CV model, DCGX will interpret signs based on finger points.
+- This removes the problems of lighting changes, background changes, different people, etc.
+- Rapid Development Being Done on DCGX Model.
+- Version 1.0.0 Released.
+
+# DeafCeption Fingerspell (DCF) (Phased Out)
 
 Model detects ASL gestures for letters a,b,c and d (this is fingerspell! Individual letters)
 - Model best performs with only hand in camera capture
@@ -24,23 +31,15 @@ Model detects ASL gestures for letters a,b,c and d (this is fingerspell! Individ
 
 !! Ensure all files (DCF, labels, and keras model) are in the same folder !!
 
-# DeafCeption Exec (DCE)
+# DeafCeption Exec (DCE) (Phased Out)
 
 - Version 1.0.1 Released
 - Universal DeafCeption Model Executer.
 - Has the capability to run all DeafCeption Gesture (DCG) Models.
 
-# DeafCeption Gesture (DCG)
+# DeafCeption Gesture (DCG) (Phase Out)
 
 - Version 0.4.1 Released
 - Gestures are detected
 - *Requires DCE to run*
 - DCG 0.4.1 recognises ***thirteen gestures***.
-
-# DeafCeption Gesture X (DCGX)
-- Next step towards sign language interpretion
-- Instead of relying on camera capture and a pure CV model, DCGX will interpret signs based on finger points.
-- This removes the problems of lighting changes, background changes, different people, etc.
-- Rapid Development Being Done on DCGX Model.
-- Version 1.0.0 Released.
-
