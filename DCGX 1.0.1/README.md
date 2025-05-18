@@ -5,3 +5,5 @@ This version of the model **supports 107 different gestures**. The list of gestu
 Simply load the .keras file and DCGX.py in a single folder and run DCGX.py in an IDLE (eg: Pycharm) Environment.
 
 _DCGX training and Exp_DCG are support files for data capture and training which are not required to run DCGX._
+
+_Pres Esc to close application_
