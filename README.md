@@ -14,7 +14,7 @@ In Development
 - Instead of relying on camera capture and a pure CV model, DCGX will interpret signs based on finger points.
 - This removes the problems of lighting changes, background changes, different people, etc.
 - Rapid Development Being Done on DCGX Model.
-- Version 1.0.0 Released.
+- Version 1.0.1 Released.
 
 # DeafCeption Fingerspell (DCF) (Phased Out)
 
