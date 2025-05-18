@@ -5,6 +5,8 @@ App software repository
 
 In Development
 
+>Currently working with Indian Sign Language
+
 > ⚠️ This project is under a custom license.  
 > It is **not open-source** for reuse. Forks are for personal viewing and learning only.  
 > No redistribution or commercial use allowed without permission.
