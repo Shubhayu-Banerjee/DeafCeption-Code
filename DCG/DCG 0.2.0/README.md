@@ -1,0 +1,11 @@
+# DCG 0.2.0
+- Improved Recognition
+- Capability to detect 7 (6) ASL Gestures
+  - Hi
+  - Name
+  - Me
+  - Thank You
+  - Yes
+  - Please
+  - None (No gesture)
+- Released on 20-10-2024
