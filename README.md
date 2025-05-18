@@ -1,5 +1,5 @@
 # DeafCeption-Code
-SVAN app software repository
+App software repository
 
 *To be heard, To be expressed*
 
@@ -10,8 +10,8 @@ In Development
 > No redistribution or commercial use allowed without permission.
 
 # DeafCeption Gesture X (DCGX) (Up To Date)
-- Next step towards sign language interpretion
-- Instead of relying on camera capture and a pure CV model, DCGX will interpret signs based on finger points.
+- Next step towards live sign language interpretion
+- Instead of relying on camera capture and a pure CV model, DCGX interprets signs based upon joint positions.
 - This removes the problems of lighting changes, background changes, different people, etc.
 - Rapid Development Being Done on DCGX Model.
 - Uploaded version supports **107 gestures.**
