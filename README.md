@@ -3,9 +3,7 @@ App software repository
 
 *To be heard, To be expressed*
 
-In Development
-
->Currently working with Indian Sign Language
+>In Development, Currently working with Indian Sign Language
 
 > ⚠️ This project is under a custom license.  
 > It is **not open-source** for reuse. Forks are for personal viewing and learning only.  
