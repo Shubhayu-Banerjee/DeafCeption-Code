@@ -37,7 +37,7 @@ Model detects ASL gestures for letters a,b,c and d (this is fingerspell! Individ
 - Universal DeafCeption Model Executer.
 - Has the capability to run all DeafCeption Gesture (DCG) Models.
 
-# DeafCeption Gesture (DCG) (Phase Out)
+# DeafCeption Gesture (DCG) (Phased Out)
 
 - Version 0.4.1 Released
 - Gestures are detected
