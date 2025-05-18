@@ -42,5 +42,5 @@ Model detects ASL gestures for letters a,b,c and d (this is fingerspell! Individ
 - Instead of relying on camera capture and a pure CV model, DCGX will interpret signs based on finger points.
 - This removes the problems of lighting changes, background changes, different people, etc.
 - Rapid Development Being Done on DCGX Model.
-- Release expected Soon.
+- Version 1.0.0 Released.
 
