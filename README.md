@@ -15,8 +15,10 @@ App software repository
 - This removes the problems of lighting changes, background changes, different people, etc.
 - Rapid Development Being Done on DCGX Model.
 - Uploaded version supports **107 gestures.**
-- Version 1.0.1 Released.
+- Version 2.2.1 Released.
 - Try out a micro-version [online](https://shubhayu-banerjee.github.io/DeafCeption-Demo/) right now! [Front End Git Repo](https://github.com/Shubhayu-Banerjee/DeafCeption-Demo)
+- Try out the latest demonstration app (.exe) [here](https://drive.google.com/file/d/1_yepU6pERZnCmw1GLvZSQscsO7U6gYls/view?usp=sharing). It works with Indian Sign Language.
+> ⚠️ Please keep in mind that single-hand gestures are still bound to the hand they were trained on. Most single hand signs are trained with the right hand, however signs like eat,cap,ball,egg,adult,energy etc. (in the main model (selected from dropdown) under sign->text) are trained with the left. For easy testing/proof of concept, select Numbers or Alphabet model from the drop down.
 
 # DeafCeption Fingerspell (DCF) (Phased Out)
 
