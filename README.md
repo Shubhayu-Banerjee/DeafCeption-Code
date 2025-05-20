@@ -12,9 +12,9 @@ App software repository
 # DeafCeption Gesture X (DCGX) (Up To Date)
 - Next step towards live sign language interpretion
 - Instead of relying on camera capture and a pure CV model, DCGX interprets signs based upon joint positions.
-- This removes the problems of lighting changes, background changes, different people, etc.
+- This greatly reduces issues with of lighting changes, background changes, different people, etc.
 - Rapid Development Being Done on DCGX Model.
-- Uploaded version supports **107 gestures.**
+- Uploaded version supports **109 gestures.**
 - Version 2.2.1 Released.
 - Try out a micro-version [online](https://shubhayu-banerjee.github.io/DeafCeption-Demo/) right now! [Front End Git Repo](https://github.com/Shubhayu-Banerjee/DeafCeption-Demo)
 - Try out the latest demonstration app [(.exe)](https://drive.google.com/file/d/1_yepU6pERZnCmw1GLvZSQscsO7U6gYls/view?usp=sharing). It works with Indian Sign Language.
